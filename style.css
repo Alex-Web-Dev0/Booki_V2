@@ -1,0 +1,60 @@
+
+
+body {
+    font-family: 'Raleway', sans-serif;;
+    margin: 0;
+    text-align: left;
+  }
+
+/* Début du Header */
+
+  header {
+    width: auto;
+    min-width: 300px;
+    max-width: 1440px;
+    margin: auto;
+    background-color: red;
+  }
+
+  /* Début du Container */
+  .container {
+    width: 100%;
+    background-color: seagreen;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+  }
+
+  .logo {
+    width: auto;
+    background-color: crimson;
+    margin: auto;
+    float: left;
+  }
+
+  .hebergement {
+    width: auto;
+    background-color: rgb(248, 250, 114);
+  }
+
+  .activities {
+    width: auto;
+    background-color: sandybrown;
+  }
+
+
+/*** Fin du Header ***/
+
+
+/* Début du Main */
+  /* Titre */
+  .h1, main {
+    width: 100%;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1440px;
+    font-weight: bold;
+    background-color: cadetblue;
+  }
+
