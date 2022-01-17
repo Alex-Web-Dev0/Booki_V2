@@ -1,60 +1,161 @@
-
-
 body {
-    font-family: 'Raleway', sans-serif;;
-    margin: 0;
-    text-align: left;
-  }
+  font-family: 'Raleway', sans-serif;
+  width: 98%;
+  margin: auto;
+  min-width: 320px;
+  max-width: 1440px;
+  background: black;
+}
 
-/* Début du Header */
+/* Début Header */
+header {
+width: 100%;
+margin: auto;
+min-width: 320px;
+max-width: 1440px;
+display: flex;
+justify-content: center;
+}
 
+img {
+ background-color: cadetblue;
+ width: 100px;
+ padding: 0;
+} 
+
+.navbar {
+background-color: rgb(184, 184, 184);
+width: 100%;
+margin: auto;
+padding-bottom: 10px;
+padding-top: 10px;
+display: flex;
+justify-content: end;
+}
+
+div.hebergement {
+  width: auto;
+  border-bottom: 2px solid blue;
+}
+
+div.activites{
+  width: auto;
+}
+
+a.hebergement {
+  background-color: chartreuse;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 14px;
+  border-top: 2px solid #0065FC;
+}
+
+a.activites {
+  background-color: rgb(250, 135, 240);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 14px;
+}
+
+@media screen and (max-width: 375px) {
   header {
-    width: auto;
-    min-width: 300px;
-    max-width: 1440px;
-    margin: auto;
-    background-color: red;
+    flex-wrap: wrap;
   }
 
-  /* Début du Container */
-  .container {
-    width: 100%;
-    background-color: seagreen;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    position: fixed;
+  .navbar {
+    padding: 16px;
+    justify-content: space-around;
   }
 
-  .logo {
-    width: auto;
-    background-color: crimson;
-    margin: auto;
-    float: left;
+  a.hebergement {
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
   }
-
-  .hebergement {
-    width: auto;
-    background-color: rgb(248, 250, 114);
-  }
-
-  .activities {
-    width: auto;
-    background-color: sandybrown;
-  }
-
-
-/*** Fin du Header ***/
+}
+/* Fin Header */
 
 
 /* Début du Main */
   /* Titre */
-  .h1, main {
-    width: 100%;
-    margin: auto;
-    min-width: 300px;
+
+main {
     max-width: 1440px;
+    background-color: rgb(205, 207, 67);
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .search {
+    width: 98%;
+    margin: auto;
+  }
+      
+  .search-header {
+    flex-direction: column;
+  }
+ 
+  .title-h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-weight: bold;
     background-color: cadetblue;
   }
 
+  .subtitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Research Box */
+  .research-box {
+    width: 25%;
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .box-location {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background-color: #F2F2F2;
+    border-radius: 14px 0 0 14px;
+  }
+
+  .fa-map-marker-alt {
+    width: auto;
+    padding: 10px;
+  }
+
+  i {
+    width: auto;
+    padding: 10px;
+  }
+
+  .research-bar {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    background-color: violet;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  /* Search Button */
+  .button-result {
+    width: auto;
+    margin: auto;
+    border: none;
+    padding: 0;
+    background-color: none;
+  }
+
+    .fas.fa-search {
+      max-width: 100%;
+      margin: auto;
+      padding: 14px;
+      color: white;
+      background-color: #0065FC;
+      border-radius: 12px 12px 12px 12px;
+    }
