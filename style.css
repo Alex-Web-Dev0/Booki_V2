@@ -10,13 +10,21 @@ body {
 /* Début Header */
 header {
 width: auto;
+min-height: 50px;
+max-height: 100px;
 display: flex;
 justify-content: center;
 }
 
-img {
- background-color: cadetblue;
- width: 100px;
+.logo {
+  min-width: 50px;
+  max-height: 50px;
+  background-color: rgb(245, 134, 30);
+}
+
+#logo {
+ display: inline-block;
+ height: 50px;
 } 
 
 
@@ -34,6 +42,7 @@ justify-content: end;
   font-weight: 700;
   font-size: 13px;
   padding: 16px;
+  color: #0065FC;
   border-top: 2px solid #0065FC;
 }
 
@@ -51,7 +60,6 @@ justify-content: end;
   /* Titre */
 
 main {
-    max-width: 1440px;
     background-color: rgb(205, 207, 67);
     padding-top: 5px;
     padding-bottom: 10px;
@@ -108,7 +116,6 @@ main {
     width: auto;
     border: none;
     padding: 0;
-    background-color: none;
     border-radius: 14px 14px 14px 14px;
   }
 
@@ -123,36 +130,55 @@ main {
 
     /* Début du Filtre */
   
-  .filter {
-    width: 98%;
+  .filter-container {
+    width: 100%;
     display: flex;
     font-size: 18px;
     align-items: center;
     border: 2px solid grey;
   }
 
-  .filter-container {
-    padding: 0 5px;
+  .filter {
+    padding: 0 10px;
+    flex-wrap: wrap;
   }
 
-  .economy {
+  i.fas.fa-money-bill-wave {
+    display: flex;
+    align-items: center;
+    min-width: 125px;
+    padding: 5px;
+  }
 
+  i.fas.fa-money-bill-wave::before {
+    padding: 3px;
   }
 
   .family {
+    max-width: 150px;
+    align-items: center;
+    display: flex;
+  }
 
+  #icon-male {
+    padding: 3px;
   }
 
   .romance {
-
+    max-width: 150px;
+    align-items: center;
+    display: flex;
   }
 
   .friendly-animals {
-
+    max-width: 250px;
+    align-items: center;
+    display: flex;
   }
 
   /* Media Queries */
   @media screen and (max-width: 425px) {
+
     header {
       flex-wrap: wrap;
     }
@@ -173,5 +199,9 @@ main {
     .activites {
       padding: auto;
       font-size: 12px;
+    }
+
+    .filter {
+    flex-wrap: wrap;  
     }
   }
