@@ -7,6 +7,10 @@ body {
   background: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Début Header */
 header {
 width: auto;
@@ -16,7 +20,7 @@ display: flex;
 justify-content: center;
 }
 
-.logo {
+img.logo {
   min-width: 50px;
   max-height: 50px;
   background-color: rgb(245, 134, 30);
@@ -28,31 +32,31 @@ justify-content: center;
 } 
 
 
-.navbar {
-background-color: rgb(184, 184, 184);
-width: 98%;
-display: flex;
-align-items: center;
-justify-content: end;
+nav {
+  background-color: rgb(184, 184, 184);
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
-.hebergement {
-  background-color: chartreuse;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 13px;
-  padding: 16px;
-  color: #0065FC;
-  border-top: 2px solid #0065FC;
-}
+  .accomodation {
+    background-color: chartreuse;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 16px;
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+  }
 
-.activites {
-  background-color: rgb(250, 135, 240);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 14px;
-  padding: 16px;
-}
+  .activity {
+    background-color: rgb(250, 135, 240);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 16px;
+  }
 /* Fin Header */
 
 
@@ -144,15 +148,23 @@ main {
     flex-wrap: wrap;
   }
 
+  .filter-wrap-container {
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    border: 1px solid grey;
+  }
+
   .economy {
     display: flex;
-    max-width: 1px;
+    max-width: 150px;
   }
 
   i.fas.fa-money-bill-wave {
     display: flex;
     align-items: center;
-    min-width: 125px;
     padding: 5px;
   }
 
@@ -185,29 +197,46 @@ main {
   /* Media Queries */
   @media screen and (max-width: 425px) {
 
-    header {
-      flex-wrap: wrap;
-    }
-    
-    .navbar {
-      padding: 0 14px;
-      margin: 0;
+  header {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+    #logo {
+      display: flex;
       justify-content: center;
     }
     
-    .hebergement {
-      border-bottom: 2px solid #0065FC;
-      border-top: none;
-      margin: 0;
-      font-size: 12px;
-    }
+  .navbar {
+    padding: 0 14px;
+    width: auto;
+    justify-content: center;
+  }
     
-    .activites {
-      padding: auto;
-      font-size: 12px;
-    }
+  .accomodation {
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+    
+  .activity {
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
 
-    .filter {
+  .filter-container {
     flex-wrap: wrap;  
     }
+
+  .filter-wrap-container {
+    flex-wrap: wrap;
   }
+}
