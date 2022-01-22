@@ -173,13 +173,15 @@ main {
     display: flex;
     align-items: center;
     padding-left: 0;
+  }
+
+  i.fas.fa-money-bill-wave::before {
     padding: 5px;
     color: #0065FC;
     background-color: #DEEBFF;
     border: 18px solid #DEEBFF;
     border-radius: 40px 40px 40px 40px;
   }
-
 
   .family {
     padding-right: 15px;
