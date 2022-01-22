@@ -34,7 +34,7 @@ img.logo {
 
 nav {
   background-color: rgb(184, 184, 184);
-  width: 98%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -64,13 +64,14 @@ nav {
   /* Titre */
 
 main {
+    width: auto;
     background-color: rgb(205, 207, 67);
     padding-top: 5px;
     padding-bottom: 10px;
   }
 
   .search {
-    width: 98%;
+    width: 100%;
     margin: auto;
   }
       
@@ -135,21 +136,22 @@ main {
     /* Début du Filtre */
   
   .filter-container {
-    width: 100%;
+    width: 99%;
     display: flex;
     font-size: 18px;
     font-weight: 700;
     align-items: center;
+    justify-content: center;
     border: 2px solid grey;
   }
 
-  .filter {
+  h3 {
     padding: 0 10px;
     flex-wrap: wrap;
   }
 
   .filter-wrap-container {
-    width: 100%;
+    width: 98%;
     display: flex;
     font-size: 18px;
     font-weight: 700;
@@ -240,12 +242,12 @@ main {
 
   .filter-container {
     flex-wrap: wrap;  
-    width: 100%;
+    width: 99%;
   }
 
 
   .filter-wrap-container {
     flex-wrap: wrap;
-    width: 100%;
+    width: 98%;
   }
 }
