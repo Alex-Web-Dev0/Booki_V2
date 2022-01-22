@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   width: 98%;
   margin: auto;
-  min-width: 320px;
+  min-width: 300px;
   max-width: 1440px;
   background: black;
 }
@@ -91,8 +91,9 @@ main {
   }
   
   /* Research Box */
-  .research-box { /* debut du container */
-    width: 325px;
+    /* debut du container */
+  .research-box { 
+    width: 80%;
     margin-top: 15px;
     display: flex;
   }
@@ -103,22 +104,22 @@ main {
     align-items: center;
   }
 
-  i { /* icon location */
+  i { 
     width: auto;
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  .research-bar { /* Barre de recherche */
-    width: auto;
+  .research-bar { 
+    max-width: 100%;
     padding: 10px 10px;
     border: none;
     font-weight: 700;
     font-size: 16px;
   }
 
-  .button-result { /* Search Button */
-    width: auto;
+  .button-result { 
+    max-width: 100%;
     border: none;
     padding: 0;
     border-radius: 14px 14px 14px 14px;
@@ -136,12 +137,11 @@ main {
     /* Début du Filtre */
   
   .filter-container {
-    width: 99%;
+    max-width: 98%;
     display: flex;
     font-size: 18px;
     font-weight: 700;
     align-items: center;
-    justify-content: center;
     border: 2px solid grey;
   }
 
@@ -151,7 +151,7 @@ main {
   }
 
   .filter-wrap-container {
-    width: 98%;
+    max-width: 98%;
     display: flex;
     font-size: 18px;
     font-weight: 700;
@@ -161,7 +161,7 @@ main {
 
   .economy {
     display: flex;
-    max-width: 150px;
+    max-width: 100%;
   }
 
   i.fas.fa-money-bill-wave {
@@ -171,29 +171,30 @@ main {
   }
 
   i.fas.fa-money-bill-wave::before {
-    padding: 3px;
+    padding: 5px;
   }
 
   .family {
-    max-width: 150px;
+    max-width: 100%;
     align-items: center;
     display: flex;
   }
 
   #icon-male {
-    padding: 3px;
+    padding: 5px;
   }
 
   .romance {
-    max-width: 150px;
+    max-width: 100%;
     align-items: center;
     display: flex;
   }
 
   .friendly-animals {
-    max-width: 250px;
+    max-width: 100%;
     align-items: center;
     display: flex;
+    flex: wrap;
   }
 
   /* Media Queries */
@@ -251,3 +252,16 @@ main {
     width: 98%;
   }
 }
+
+@media screen and (max-width: 650px) {
+
+  .filter-container {
+    flex-wrap: wrap;  
+    width: 99%;
+  }
+
+
+  .filter-wrap-container {
+    flex-wrap: wrap;
+    width: 98%;
+  }
