@@ -148,6 +148,7 @@ main {
       flex-direction: row;
       flex-wrap: wrap;
       padding: 0;
+      margin-top: 20px;
     }
     
     .filters ul li {
@@ -180,6 +181,10 @@ main {
   
   .info p {
     display: inline;
+  }
+
+  .info {
+    margin-top: 20px;
   }
 
 
@@ -235,11 +240,10 @@ main {
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) and (min-width: 425px) {
 
 }
 
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 992px) and (min-width: 650px) {
 
 }
