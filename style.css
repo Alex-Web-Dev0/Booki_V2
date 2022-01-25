@@ -188,12 +188,11 @@ main {
   section.hosting-blocs {
     background-color: #F2F2F2;
     border-radius: 15px;
-    width: 95%;
-    margin: auto;
+    max-width: 75%;
   }
 
   .title-h2 {
-    width: auto;
+    max-width: auto;
     margin-top: 50px;
     margin-left: 40px;
     font-weight: 800;
@@ -201,14 +200,14 @@ main {
   /* Début des Cards */
 
   .HostingMainCard {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-width: 320px;
+    display: inline-block;
+    max-width: 280px;
     max-height: auto;
     background-color: white;
     border-radius: 24px;
     padding: 4px;
+    box-shadow: 2px 2px 15px grey;
+    margin: 25px;
   }
 
   .HostingImgCard {
@@ -220,7 +219,7 @@ main {
   p.infocard {
     width: auto;
     margin-left: 15px;
-    margin-top: 0;
+    margin-top: 4px;
     margin-bottom: 4px;
   }
 
@@ -232,6 +231,7 @@ main {
 
   .icon-star {
     margin-left: 15px;
+    margin-top: 6px;
   }
 
   .fa-star {
