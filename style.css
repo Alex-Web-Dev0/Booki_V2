@@ -220,6 +220,10 @@ main {
     object-fit: contain;
   }
 
+  .icon-star {
+    padding: 0;
+    object-fit: contain;
+  }
 
   /* Media Queries */
   @media screen and (max-width: 425px) and (min-width: 300px){
