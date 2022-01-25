@@ -185,6 +185,42 @@ main {
   }
 
 
+  section.hosting-blocs {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
+  }
+
+  .title-h2 {
+    width: auto;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  article {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px black
+  }
+
+  p.infocard {
+    width: auto;
+  }
+
+  #img-card {
+    max-width: 100%;
+    margin: 4px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: contain;
+  }
+
+
   /* Media Queries */
   @media screen and (max-width: 425px) and (min-width: 300px){
 
