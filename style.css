@@ -131,7 +131,7 @@ main {
       font-size: 16px;
     }
 
-    /* Début du Filtre */
+  /* Début du Filtre */
 
     .filters h3 {
       margin-top: 20px;
@@ -139,7 +139,6 @@ main {
       display: inline;
     }
 
-    
     .filters ul {
       display: inline-flex;
       flex-direction: row;
@@ -167,28 +166,31 @@ main {
       margin-right: 15px;
     }
 
-  .info .fas {
-    color: #0065fc;
-    font-size: 16px;
-    padding: 7px 11px 7px 11px;
-    border: solid 1px #D9D9D9;
-    border-radius: 2000px;
-    margin-right: 20px;
-  }
+      .info .fas {
+        color: #0065fc;
+        font-size: 16px;
+        padding: 7px 11px 7px 11px;
+        border: solid 1px #D9D9D9;
+        border-radius: 2000px;
+        margin-right: 20px;
+      }
   
-  .info p {
-    display: inline;
-  }
+      .info p {
+        display: inline;
+      }
 
-  .info {
-    margin-top: 20px;
-  }
+      .info {
+        margin-top: 20px;
+      }
 
   /* Début de la Section des Cards */
   section.hosting-blocs {
     background-color: #F2F2F2;
     border-radius: 15px;
-    max-width: 75%;
+    max-width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: space-between;
   }
 
   .title-h2 {
@@ -196,18 +198,27 @@ main {
     margin-top: 50px;
     margin-left: 40px;
     font-weight: 800;
+    position: absolute;
+  }
+
+  aside { /* non affiché pour le moment */
+    display: none;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    max-width: 75%;
   }
   /* Début des Cards */
 
   .HostingMainCard {
     display: inline-block;
-    max-width: 280px;
+    max-width: 250px;
     max-height: auto;
     background-color: white;
-    border-radius: 24px;
     padding: 4px;
     box-shadow: 2px 2px 15px grey;
+    border-radius: 24px;
     margin: 25px;
+    margin-top: 100px;
   }
 
   .HostingImgCard {
@@ -238,72 +249,3 @@ main {
     padding: 0;
     margin-bottom: 10px;
   }
-
-  /* Media Queries */
-  @media screen and (max-width: 425px) and (min-width: 300px){
-
-  .accomodation {
-    border-bottom: 2px solid #0065FC;
-    border-top: none;
-    font-size: 12px;
-    margin: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-      
-  .activity {
-    font-size: 12px;
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  header {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-    #logo {
-      display: flex;
-      justify-content: center;
-    }
-    
-  .navbar {
-    padding: 0;
-    width: auto;
-  }
-
-
-  .research-box {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .box-location {
-    width: auto;
-    display: inline;
-    align-items: center;
-    border-radius: 14px 14px 14px 14px;
-  }
-
-  .info .fas {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 650px) and (min-width: 425px) {
-
-}
-
-@media screen and (max-width: 992px) and (min-width: 650px) {
-
-}
-
-@media screen and (max-width: 968px) {
-  .research-box {
-    margin-bottom: 20px;
-  }
-}
