@@ -187,7 +187,8 @@ main {
   section.hosting-blocs {
     background-color: #F2F2F2;
     border-radius: 15px;
-    max-width: 70%;
+    width: 70%;
+    max-height: auto;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -222,7 +223,7 @@ main {
   }
 
   .HostingImgCard {
-    width: 98%;
+    width: 100%;
     padding: auto;
     margin: auto;
   }

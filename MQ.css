@@ -1,6 +1,22 @@
   /* Media Queries */
   @media screen and (max-width: 425px) and (min-width: 300px){
 
+    header {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+      #logo {
+        display: flex;
+        justify-content: center;
+      }
+      
+    .navbar {
+      padding: 0;
+      width: auto;
+    }
+
     .accomodation {
       border-bottom: 2px solid #0065FC;
       border-top: none;
@@ -18,23 +34,9 @@
       display: flex;
       justify-content: center;
     }
-  
-    header {
-      width: auto;
-      display: flex;
-      flex-direction: column;
-    }
-  
-      #logo {
-        display: flex;
-        justify-content: center;
-      }
-      
-    .navbar {
-      padding: 0;
-      width: auto;
-    }
-  
+
+    /*  Filtre  */
+
     .research-box {
       width: 100%;
       justify-content: center;
