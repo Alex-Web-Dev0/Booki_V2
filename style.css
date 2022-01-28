@@ -190,15 +190,14 @@ main {
     max-width: 70%;
     margin-top: 20px;
     display: flex;
-    flex-wrap: space-between;
   }
 
   .title-h2 {
-    max-width: auto;
     margin-top: 50px;
     margin-left: 40px;
     font-weight: 800;
     position: absolute;
+    display: inline-block;
   }
 
   aside { /* non affiché pour le moment */
@@ -211,8 +210,8 @@ main {
 
   .HostingMainCard {
     display: inline-block;
-    max-width: 250px;
-    max-height: auto;
+    width: 250px;
+    height: auto;
     background-color: white;
     padding: 4px;
     box-shadow: 2px 2px 15px grey;
