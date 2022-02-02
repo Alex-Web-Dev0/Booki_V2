@@ -182,37 +182,46 @@ main {
       .info {
         margin-top: 20px;
       }
-
+  /*************************************************************************/
   /* Début de la Section des Cards */
 
   section.hosting-blocs {
     background-color: #F2F2F2;
     border-radius: 15px;
-    width: 60%;
+    width: 98%;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid grey;
+    break-inside: auto;
   }
 
   .title-h2 {
     max-width: 100%;
     margin-left: 30px;
     margin-top: 30px;
+    display: inline-block;
   }
 
   .containerarticle {
-    width: 100%;
+    max-width: 100%;
+    max-height: 250px;
     border: 2px solid black;
     display: flex;
-    justify-content: space-evenly;
   }
 
-  aside { /* non affiché pour le moment */
-    background-color: #F2F2F2;
-    border-radius: 24px;
-    width: 25%; 
+  .asidemain-blocs {
+    border: 2px solid black;
+    max-width: 30%; 
+    margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
+
+  
+
   
   /* Début des Cards */
 
