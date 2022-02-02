@@ -186,7 +186,7 @@ main {
   /* Début de la Section des Cards */
 
   section.hosting-blocs {
-    background-color: #F2F2F2;
+    background-color: #ffffff;
     border-radius: 15px;
     width: 98%;
     margin-top: 20px;
@@ -199,7 +199,7 @@ main {
 
   .title-h2 {
     max-width: 100%;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 30px;
     display: inline-block;
   }
@@ -208,20 +208,20 @@ main {
     max-width: 100%;
     max-height: 250px;
     border: 2px solid black;
+    border-radius: 15px;
+    background-color: #F2F2F2;
     display: flex;
   }
 
-  .asidemain-blocs {
+  .aside-main-blocs {
     border: 2px solid black;
+    border-radius: 15px;
+    background-color: #F2F2F2;
     max-width: 30%; 
-    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-
-  
-
   
   /* Début des Cards */
 
@@ -247,14 +247,57 @@ main {
       object-fit: cover;
     }
 
+    /** Populary Cards **/
+
+    .asidemaincard {
+      width: 320px;
+      height: 150px;
+      padding: 4px;
+      box-shadow: 2px 2px 15px grey;
+      border-radius: 25px;
+      margin: 20px;
+      margin-top: 20px;
+      background-color: white;
+      display: flex;
+    }
+  
+      .asideimgcard {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 40%;
+        max-height: 150px;
+        border-radius: 25px;
+      }
+  
+      #aside-img-card {
+        max-width: 100%;
+        max-height: 250px;
+        border-radius: 25px 0px 0px 25px;
+        object-fit: cover;
+      }
+
+      .blocasideimgcard {
+
+      }
+
     /* Paragraphe */
 
-      p.infocard {
-        max-width: 100%;
-        margin-left: 10px;
-        margin-top: 4px;
-        margin-bottom: 4px;
-      }
+    p.infocard {
+      max-width: 100%;
+      margin-left: 10px;
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+
+    /* Paragraphe aside */  
+
+    p.asideinfocard {
+      display: flex;
+      max-width: 100%;
+      margin-left: 10px;
+      margin-top: 4px;
+      margin-bottom: 15px;
+    }
 
   /* Icons */
 
@@ -273,5 +316,15 @@ main {
   #greystar {
     color: #CCCCCC;
   }
+
+  
+    /* Icons aside */  
+
+    .aside-icon-star {
+      margin-left: 10px;
+      margin-top: 6px;
+      font-size: 14px;
+      display: flex;
+    }
 
 /****** Fin des Cards et de la section ******/
