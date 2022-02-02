@@ -1,0 +1,69 @@
+  /* Media Queries */
+  @media screen and (max-width: 425px) and (min-width: 300px){
+
+    header {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+      #logo {
+        display: flex;
+        justify-content: center;
+      }
+      
+    .navbar {
+      padding: 0;
+      width: auto;
+    }
+
+    .accomodation {
+      border-bottom: 2px solid #0065FC;
+      border-top: none;
+      font-size: 12px;
+      margin: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+        
+    .activity {
+      font-size: 12px;
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    /*  Filtre  */
+
+    .research-box {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .box-location {
+      width: auto;
+      display: inline;
+      align-items: center;
+      border-radius: 14px 14px 14px 14px;
+    }
+  
+    .info .fas {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) and (min-width: 425px) {
+  
+  }
+  
+  @media screen and (max-width: 992px) and (min-width: 650px) {
+  
+  }
+  
+  @media screen and (max-width: 968px) {
+    .research-box {
+      margin-bottom: 20px;
+    }
+  }
