@@ -184,7 +184,7 @@ main {
       }
 
   /* Début de la Section des Cards */
-  
+
   section.hosting-blocs {
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -204,20 +204,19 @@ main {
     width: 100%;
     border: 2px solid black;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-evenly;
   }
 
   aside { /* non affiché pour le moment */
-    display: none;
     background-color: #F2F2F2;
     border-radius: 24px;
-    max-width: 75%;
+    width: 25%; 
+    display: flex;
   }
   
   /* Début des Cards */
 
-  .hostingMainCard {
+  .hostingmaincard {
     width: 220px;
     padding: 4px;
     box-shadow: 2px 2px 15px grey;
@@ -227,7 +226,7 @@ main {
     background-color: white;
   }
 
-    .hostingImgCard {
+    .hostingimgcard {
       max-width: 100%;
       border-radius: 25px;
     }
@@ -238,6 +237,8 @@ main {
       border-radius: 25px 25px 0px 0px;
       object-fit: cover;
     }
+
+    /* Paragraphe */
 
       p.infocard {
         max-width: 100%;
@@ -264,3 +265,4 @@ main {
     color: #CCCCCC;
   }
 
+/****** Fin des Cards et de la section ******/
