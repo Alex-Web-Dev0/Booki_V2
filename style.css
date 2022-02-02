@@ -184,73 +184,83 @@ main {
       }
 
   /* Début de la Section des Cards */
+  
   section.hosting-blocs {
     background-color: #F2F2F2;
     border-radius: 15px;
-    width: 70%;
-    max-height: auto;
+    width: 60%;
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .title-h2 {
-    margin-top: 50px;
-    margin-left: 40px;
-    font-weight: 800;
-    position: absolute;
-    display: inline-block;
+    max-width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .containerarticle {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
   }
 
   aside { /* non affiché pour le moment */
     display: none;
     background-color: #F2F2F2;
-    border-radius: 15px;
+    border-radius: 24px;
     max-width: 75%;
   }
+  
   /* Début des Cards */
 
-  .HostingMainCard {
-    display: inline-block;
-    width: 280px;
-    height: auto;
-    background-color: white;
+  .hostingMainCard {
+    width: 220px;
     padding: 4px;
     box-shadow: 2px 2px 15px grey;
-    border-radius: 24px;
+    border-radius: 25px;
     margin: 25px;
-    margin-top: 110px;
+    margin-top: 10px;
+    background-color: white;
   }
 
-  .HostingImgCard {
-    width: 100%;
-    padding: auto;
-    margin: auto;
-  }
+    .hostingImgCard {
+      max-width: 100%;
+      border-radius: 25px;
+    }
 
-  p.infocard {
-    width: auto;
-    margin-left: 15px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    display: flex;
-  }
+    #img-card {
+      width: 100%;
+      max-height: 120px;
+      border-radius: 25px 25px 0px 0px;
+      object-fit: cover;
+    }
 
-  #img-card {
-    max-width: 100%;
-    border-radius: 24px 24px 0px 0px;
-    object-fit: cover;
-  }
+      p.infocard {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+
+  /* Icons */
 
   .icon-star {
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 6px;
-    display: flex;
+    font-size: 14px;
   }
 
-  .fa-star {
+  .fa-sm {
     padding: 0;
     margin-bottom: 10px;
     color: #0065FC;
-    display: flex;
   }
+
+  #greystar {
+    color: #CCCCCC;
+  }
+
