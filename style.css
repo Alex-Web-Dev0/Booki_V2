@@ -64,10 +64,11 @@ nav {
   /* Titre */
 
 main {
-    width: auto;
-    background-color: rgb(205, 207, 67);
+    width: 100%;
+    background-color: rgb(248, 246, 112);
     padding-top: 5px;
     padding-bottom: 10px;
+    margin: auto;
   }
 
   .search {
@@ -193,44 +194,45 @@ main {
   }
 
   .title-h2 {
-    max-width: 100%;
+    width: 100%;
     margin-top: 30px;
-    margin-left: 20px;
-    display: inline-block;
+    margin-left: 16px;
+    display: flex;
   }
 
   .containerarticle {
-    max-width: 60%;
-    max-height: 100%;
-    margin-left: -45px;
+    width: 100%;
+    height: 100%;
+    padding: auto;
     border: 2px solid black;
     border-radius: 15px;
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   /* Début des Cards */
 
   .hostingmaincard {
-    width: 220px;
-    max-height: 200px;
+    width: 240px;
+    height: 200px;
     padding: 4px;
+    background-color: white;
     box-shadow: 1px 1px 10px rgb(199, 199, 199);
     border-radius: 25px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 20px;
+    justify-content: center;
   }
 
     .hostingimgcard {
-      max-width: 100%;
+      width: 100%;
       border-radius: 25px;
     }
 
     #img-card {
       width: 100%;
-      max-height: 120px;
+      height: 120px;
       border-radius: 25px 25px 0px 0px;
       object-fit: cover;
     }
@@ -240,37 +242,38 @@ main {
     aside {
       border: 2px solid black;
       border-radius: 15px;
-      background-color: #F2F2F2;
-      max-width: 35%; 
-      margin-right: 40px;
+      background-color: none;
+      width: 35%; 
       flex-wrap: wrap;
-      justify-content: space-around;
+      margin-left: 40px;
     }
     
     .asidemaincard {
       width: 340px;
-      max-height: 130px;
+      height: 150px;
       padding: 4px;
       box-shadow: 1px 1px 10px rgb(199, 199, 199);
       border-radius: 20px;
-      margin: 20px;
+      margin: 25px;
       background-color: white;
       display: flex;
     }
   
+    /* Début des images aside */
       .asideimgcard {
         display: flex;
         flex-wrap: wrap;
-        width: 40%;
+        max-width: 40%;
         border-radius: 20px;
       }
   
       #aside-img-card {
         width: 100%;
-        height: 130px;
+        height: 150px;
         border-radius: 20px 0px 0px 20px;
         object-fit: cover;
       }
+    /* Fin des images aside */
 
       .blocasideimgcard {
         padding: 4px;
@@ -287,6 +290,15 @@ main {
       margin-left: 10px;
       margin-top: 4px;
       margin-bottom: 4px;
+    }
+
+    p.more {
+      width: 100%;
+      font-weight: 700;
+      font-size: 18px;
+      padding-left: 35px;
+      padding-bottom: 70px;
+      padding-top: 12px;
     }
 
     /* Paragraphe aside */  
@@ -325,6 +337,10 @@ main {
       margin-top: 30px;
       padding: 0;      
       font-size: 14px;
+    }
+
+    #icons-pop {
+      font-size: 26px;
     }
 
 /****** Fin des Cards et de la section ******/
