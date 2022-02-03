@@ -186,10 +186,8 @@ main {
 
   section.hosting-blocs {
     border-radius: 15px;
-    width: 98%;
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
     border: 2px solid grey;
   }
 
