@@ -339,7 +339,7 @@ main {
       font-size: 26px;
     }
 
-/****** Fin des Cards et de la section ******/
+/****** Fin des Cards et de la section Hosting ******/
 
 /* Début des Activités */
 
@@ -359,7 +359,7 @@ main {
   justify-content: space-between;
 }
 
-/* Card 1 */
+/* Card 1 & 4 */
 .articleactivity {
   width: 320px;
   height: 520px;
@@ -384,9 +384,9 @@ main {
     font-weight: bold;
   }
 
-/* Container Card 2-3 */ 
+/* Container Card 2-3 / 5-6 */ 
 
-.activitycontainer2 {
+.containercard {
   width: auto;
   justify-content: space-between;
 }
@@ -426,13 +426,6 @@ main {
   border-radius: 19px 19px 0px 0px;
 }
 
-/* container Card 5-6 */
-
-.activitycontainer3 {
-  width: auto;
-  justify-content: space-between;
-}
-
 /* Card 5 */
 
 .articleactivity5 {
@@ -467,3 +460,4 @@ main {
   height: 180px;
   border-radius: 19px 19px 0px 0px;
 }
+
