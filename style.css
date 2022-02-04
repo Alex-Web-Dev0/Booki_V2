@@ -345,7 +345,8 @@ main {
 
 .activitycontainer {
   width: 100%;
-  float: inline-start;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title-h1 {
@@ -356,24 +357,74 @@ main {
   display: flex;
 }
 
+/* Card 1 */
 .articleactivity {
-  width: 20%;
+  width: 24%;
+  height: 520px;
+  padding: 0;
   border: 2px solid grey;
   background-color: white;
-  box-shadow: 1px 1px rgb(199, 199, 199);
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
   border-radius: 20px;
 }
+
 
   #activity-img-card {
     object-fit: cover;
     width: 100%; 
-    height: 400px;
+    height: 460px;
     border-radius: 19px 19px 0px 0px;
   }
 
   .p-activity {
-    width: 100%;
+    max-width: 100%;
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
   }
+
+/* Div de contenus Card 2 et 3 */
+
+  .blocarticle2-3 {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+/* Card 2 */ 
+.articleactivity2 {
+  width: 100%;
+  height: 280px;
+  margin-left: 40px;
+  border: 2px solid grey;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+}
+
+#activity-img-card2 {
+  object-fit: cover;
+  width: 100%; 
+  height: 220px;
+  border-radius: 19px 19px 0px 0px;
+}
+
+/* Card 3 */ 
+
+.articleactivity3 {
+  width: 100%;
+  height: 180px;
+  margin-left: 40px;
+  margin-top: 36px;
+  border: 2px solid grey;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+}
+
+#activity-img-card3 {
+  object-fit: cover;
+  width: 100%; 
+  height: 120px;
+  border-radius: 19px 19px 0px 0px;
+}
