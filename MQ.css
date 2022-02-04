@@ -61,6 +61,13 @@
   @media screen and (max-width: 992px) and (min-width: 650px) {
   
   }
+<<<<<<< HEAD
+=======
+
+  @media screen and (max-width: 1300px) and (min-width: 992px) {
+    
+  }
+>>>>>>> activity
   
   @media screen and (max-width: 968px) {
     .research-box {

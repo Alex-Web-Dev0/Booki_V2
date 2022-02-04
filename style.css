@@ -64,10 +64,11 @@ nav {
   /* Titre */
 
 main {
-    width: auto;
-    background-color: rgb(205, 207, 67);
+    width: 100%;
+    background-color: rgb(248, 246, 112);
     padding-top: 5px;
     padding-bottom: 10px;
+    margin: auto;
   }
 
   .search {
@@ -172,12 +173,18 @@ main {
         padding: 7px 11px 7px 11px;
         border: solid 1px #D9D9D9;
         border-radius: 2000px;
+<<<<<<< HEAD
         margin-right: 20px;
+=======
+        margin-right: 10px;
+        margin-top: 20px;
+>>>>>>> activity
       }
   
       .info p {
         display: inline;
       }
+<<<<<<< HEAD
 
       .info {
         margin-top: 20px;
@@ -234,8 +241,157 @@ main {
     margin-top: 4px;
     margin-bottom: 4px;
     display: flex;
+=======
+
+  /*************************************************************************/
+  /* Début de la Section des Cards */
+
+  section.hosting-blocs {
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    border: 2px solid grey;
   }
 
+  .title-h2 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 16px;
+    display: flex;
+  }
+
+  .containerarticle {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  /* Début des Cards */
+
+  .hostingmaincard {
+    width: 240px;
+    height: 200px;
+    padding: 4px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(199, 199, 199);
+    border-radius: 25px;
+    margin: 20px;
+    justify-content: center;
+  }
+
+    .hostingimgcard {
+      width: 100%;
+      border-radius: 25px;
+    }
+
+    #img-card {
+      width: 100%;
+      height: 120px;
+      border-radius: 25px 25px 0px 0px;
+      object-fit: cover;
+    }
+
+    /** Populary Cards **/
+
+    aside {
+      border: 2px solid black;
+      border-radius: 15px;
+      background-color: none;
+      width: 35%; 
+      flex-wrap: wrap;
+      margin-left: 40px;
+    }
+    
+    .asidemaincard {
+      width: 340px;
+      height: 150px;
+      padding: 4px;
+      box-shadow: 1px 1px 10px rgb(199, 199, 199);
+      border-radius: 20px;
+      margin: 25px;
+      background-color: white;
+      display: flex;
+    }
+  
+    /* Début des images aside */
+      .asideimgcard {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 40%;
+        border-radius: 20px;
+      }
+  
+      #aside-img-card {
+        width: 100%;
+        height: 150px;
+        border-radius: 20px 0px 0px 20px;
+        object-fit: cover;
+      }
+    /* Fin des images aside */
+
+      .blocasideimgcard {
+        padding: 4px;
+        margin-left: 10px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+      }
+
+    /* Paragraphe */
+
+    p.infocard {
+      width: 100%;
+      margin-left: 10px;
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+
+    p.more {
+      width: 100%;
+      font-weight: 700;
+      font-size: 18px;
+      padding-left: 35px;
+      padding-bottom: 70px;
+      padding-top: 12px;
+    }
+
+    /* Paragraphe aside */  
+
+    p.asideinfocard {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0;
+      padding: 4px;
+    }
+
+  /* Icons */
+
+  .icon-star {
+    margin-left: 10px;
+    margin-top: 6px;
+    font-size: 14px;
+  }
+
+  .fa-sm {
+    padding: 0;
+    margin-bottom: 10px;
+    color: #0065FC;
+  }
+
+  #greystar {
+    color: #CCCCCC;
+>>>>>>> activity
+  }
+  
+    /* Icons aside */  
+
+<<<<<<< HEAD
   #img-card {
     max-width: 100%;
     border-radius: 24px 24px 0px 0px;
@@ -254,3 +410,144 @@ main {
     color: #0065FC;
     display: flex;
   }
+=======
+    .aside-icon-star {
+      margin-left: 10px;
+      margin-top: 40px;
+      padding: 0;      
+      font-size: 14px;
+    }
+
+    #icons-pop {
+      font-size: 26px;
+    }
+
+/****** Fin des Cards et de la section ******/
+
+/* Début des Activités */
+
+.title-h1 {
+  width: 100%;
+  font-size: 24px;
+  justify-content: left;
+  margin-top: 60px;
+  display: flex;
+}
+
+.activitycontainer {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Card 1 */
+.articleactivity {
+  width: 320px;
+  height: 520px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+  display: block;
+}
+
+  #activity-img-card {
+    object-fit: cover;
+    display: inline-block;
+    width: 100%; 
+    height: 460px;
+    border-radius: 19px 19px 0px 0px;
+  }
+
+  .p-activity {
+    max-width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+/* Container Card 2-3 */ 
+
+.activitycontainer2 {
+  width: auto;
+  justify-content: space-between;
+}
+
+/* Card 2 */
+
+.articleactivity2 {
+  width: 320px;
+  height: 280px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+}
+
+#activity-img-card2 {
+  object-fit: cover;
+  width: 100%; 
+  height: 220px;
+  border-radius: 19px 19px 0px 0px;
+}
+
+/* Card 3 */ 
+
+.articleactivity3 {
+  width: 320px;
+  height: 180px;
+  margin-top: 55px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+}
+
+#activity-img-card3 {
+  object-fit: cover;
+  width: 100%; 
+  height: 120px;
+  border-radius: 19px 19px 0px 0px;
+}
+
+/* container Card 5-6 */
+
+.activitycontainer3 {
+  width: auto;
+  justify-content: space-between;
+}
+
+/* Card 5 */
+
+.articleactivity5 {
+  width: 320px;
+  height: 220px;
+  margin-bottom: 60px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+}
+
+#activity-img-card5 {
+  object-fit: cover;
+  width: 100%; 
+  height: 160px;
+  border-radius: 19px 19px 0px 0px;
+}
+
+/* Card 6 */
+
+.articleactivity6 {
+  width: 320px;
+  height: 240px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+}
+
+#activity-img-card6 {
+  object-fit: cover;
+  width: 100%; 
+  height: 180px;
+  border-radius: 19px 19px 0px 0px;
+}
+>>>>>>> activity
