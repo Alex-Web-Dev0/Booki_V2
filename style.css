@@ -343,12 +343,6 @@ main {
 
 /* Début des Activités */
 
-.activitycontainer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .title-h1 {
   width: 100%;
   font-size: 24px;
@@ -357,20 +351,27 @@ main {
   display: flex;
 }
 
+.activitycontainer {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 /* Card 1 */
 .articleactivity {
-  width: 24%;
+  width: 320px;
   height: 520px;
-  padding: 0;
-  border: 2px solid grey;
   background-color: white;
   box-shadow: 1px 1px 10px rgb(199, 199, 199);
   border-radius: 20px;
+  display: block;
 }
-
 
   #activity-img-card {
     object-fit: cover;
+    display: inline-block;
     width: 100%; 
     height: 460px;
     border-radius: 19px 19px 0px 0px;
@@ -383,20 +384,18 @@ main {
     font-weight: bold;
   }
 
-/* Div de contenus Card 2 et 3 */
+/* Container Card 2-3 */ 
 
-  .blocarticle2-3 {
-    width: 25%;
-    display: flex;
-    flex-wrap: wrap;
-  }
+.activitycontainer2 {
+  width: auto;
+  justify-content: space-between;
+}
 
-/* Card 2 */ 
+/* Card 2 */
+
 .articleactivity2 {
-  width: 100%;
+  width: 320px;
   height: 280px;
-  margin-left: 40px;
-  border: 2px solid grey;
   background-color: white;
   box-shadow: 1px 1px 10px rgb(199, 199, 199);
   border-radius: 20px;
@@ -412,11 +411,9 @@ main {
 /* Card 3 */ 
 
 .articleactivity3 {
-  width: 100%;
+  width: 320px;
   height: 180px;
-  margin-left: 40px;
-  margin-top: 36px;
-  border: 2px solid grey;
+  margin-top: 55px;
   background-color: white;
   box-shadow: 1px 1px 10px rgb(199, 199, 199);
   border-radius: 20px;
@@ -426,5 +423,47 @@ main {
   object-fit: cover;
   width: 100%; 
   height: 120px;
+  border-radius: 19px 19px 0px 0px;
+}
+
+/* container Card 5-6 */
+
+.activitycontainer3 {
+  width: auto;
+  justify-content: space-between;
+}
+
+/* Card 5 */
+
+.articleactivity5 {
+  width: 320px;
+  height: 220px;
+  margin-bottom: 60px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+}
+
+#activity-img-card5 {
+  object-fit: cover;
+  width: 100%; 
+  height: 160px;
+  border-radius: 19px 19px 0px 0px;
+}
+
+/* Card 6 */
+
+.articleactivity6 {
+  width: 320px;
+  height: 240px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+}
+
+#activity-img-card6 {
+  object-fit: cover;
+  width: 100%; 
+  height: 180px;
   border-radius: 19px 19px 0px 0px;
 }
