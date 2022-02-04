@@ -173,18 +173,13 @@ main {
         padding: 7px 11px 7px 11px;
         border: solid 1px #D9D9D9;
         border-radius: 2000px;
-<<<<<<< HEAD
         margin-right: 20px;
-=======
-        margin-right: 10px;
         margin-top: 20px;
->>>>>>> activity
       }
   
       .info p {
         display: inline;
       }
-<<<<<<< HEAD
 
       .info {
         margin-top: 20px;
@@ -241,12 +236,12 @@ main {
     margin-top: 4px;
     margin-bottom: 4px;
     display: flex;
-=======
+
 
   /*************************************************************************/
   /* Début de la Section des Cards */
 
-  section.hosting-blocs {
+  .hosting-blocs {
     border-radius: 15px;
     margin-top: 20px;
     display: flex;
@@ -386,12 +381,10 @@ main {
 
   #greystar {
     color: #CCCCCC;
->>>>>>> activity
   }
   
     /* Icons aside */  
 
-<<<<<<< HEAD
   #img-card {
     max-width: 100%;
     border-radius: 24px 24px 0px 0px;
@@ -410,7 +403,7 @@ main {
     color: #0065FC;
     display: flex;
   }
-=======
+
     .aside-icon-star {
       margin-left: 10px;
       margin-top: 40px;
@@ -550,4 +543,3 @@ main {
   height: 180px;
   border-radius: 19px 19px 0px 0px;
 }
->>>>>>> activity
