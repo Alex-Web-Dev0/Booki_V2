@@ -173,7 +173,7 @@ main {
         padding: 7px 11px 7px 11px;
         border: solid 1px #D9D9D9;
         border-radius: 2000px;
-        margin-right: 20px;
+        margin-right: 10px;
         margin-top: 20px;
       }
   
@@ -181,67 +181,10 @@ main {
         display: inline;
       }
 
-      .info {
-        margin-top: 20px;
-      }
-
-  /* Début de la Section des Cards */
-  section.hosting-blocs {
-    background-color: #F2F2F2;
-    border-radius: 15px;
-    width: 70%;
-    max-height: auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .title-h2 {
-    margin-top: 50px;
-    margin-left: 40px;
-    font-weight: 800;
-    position: absolute;
-    display: inline-block;
-  }
-
-  aside { /* non affiché pour le moment */
-    display: none;
-    background-color: #F2F2F2;
-    border-radius: 15px;
-    max-width: 75%;
-  }
-  /* Début des Cards */
-
-  .HostingMainCard {
-    display: inline-block;
-    width: 280px;
-    height: auto;
-    background-color: white;
-    padding: 4px;
-    box-shadow: 2px 2px 15px grey;
-    border-radius: 24px;
-    margin: 25px;
-    margin-top: 110px;
-  }
-
-  .HostingImgCard {
-    width: 100%;
-    padding: auto;
-    margin: auto;
-  }
-
-  p.infocard {
-    width: auto;
-    margin-left: 15px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    display: flex;
-
-
   /*************************************************************************/
   /* Début de la Section des Cards */
 
-  .hosting-blocs {
+  section.hosting-blocs {
     border-radius: 15px;
     margin-top: 20px;
     display: flex;
@@ -384,25 +327,6 @@ main {
   }
   
     /* Icons aside */  
-
-  #img-card {
-    max-width: 100%;
-    border-radius: 24px 24px 0px 0px;
-    object-fit: cover;
-  }
-
-  .icon-star {
-    margin-left: 15px;
-    margin-top: 6px;
-    display: flex;
-  }
-
-  .fa-star {
-    padding: 0;
-    margin-bottom: 10px;
-    color: #0065FC;
-    display: flex;
-  }
 
     .aside-icon-star {
       margin-left: 10px;
