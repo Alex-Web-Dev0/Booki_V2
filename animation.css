@@ -1,0 +1,92 @@
+/*  Card */
+.cardanimation {
+    display: flex;
+}
+.cardanimation:hover {
+  color: black;
+}
+
+.cardanimationhost {
+    display: block;
+}
+.cardanimationhost:hover {
+    color: black;
+}
+
+a:hover {
+    color: #0065FC;
+  }
+
+  .accomodation:hover {
+    border-top: 2px solid #0065FC;
+  }
+
+  .activity:hover {
+    border-top: 2px solid #0065FC;
+  }
+
+/* search */
+  .searchbutton:hover {
+    box-shadow: 3px 3px rgb(190, 190, 190);
+}
+
+/* filters */
+.filters div .filters-button:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: #e6effd;
+    transition: transform .5s;
+}
+  
+    .filters-button:hover {
+      box-shadow: 2px 2px rgb(212, 212, 212);
+    }
+
+.fas:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.icon-filter:hover {
+  transform: none;
+}
+/* text */
+strong:hover {
+    color: black;
+}
+
+/* Article */
+article:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: transform .4s;
+  }
+/* footer */
+.footertitle > g:hover {
+    color: #0065fc;
+  }
+  
+  a.footertitle:hover {
+    color: #0065fc;
+    text-decoration: underline;
+  }
+
+@media screen and (max-width: 500px) and (min-width: 240px){
+  a:hover {
+    color: #0065FC;
+  }
+
+  .accomodation:hover {
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+  }
+
+  .activity:hover {
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+  }
+}
